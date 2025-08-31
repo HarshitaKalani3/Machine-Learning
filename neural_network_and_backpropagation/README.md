@@ -4,3 +4,10 @@ This is a simple Feedforward Neural Network(FNN), which is specifically a 3-laye
 2. 1 hidden layer with 3 neurons.
 3. 3 output neurons.
 In this, I have done forward pass and then backward pass for backpropagation. I have used the sigmoid activation function and trained the network using backpropagation to minimize the total error between predicted outputs and target values.
+## How it Works
+1. Forward Pass:
+Hidden Layer Inputs: h=Wx
+Hidden Layer Outputs(using Sigmoid activation funcction): Oh=σ(h)= 1/1+e^-h
+Output layer inputs:𝑜=Θ⋅𝑂ℎ
+Final outputs: 𝑂𝑗=𝜎(𝑜)
+2. Loss Function: Mean Squared Error (MSE): 𝐿=1/2∑(𝑡−𝑂𝑗)2
