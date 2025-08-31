@@ -6,9 +6,9 @@ This is a simple Feedforward Neural Network(FNN), which is specifically a 3-laye
 In this, I have done forward pass and then backward pass for backpropagation. I have used the sigmoid activation function and trained the network using backpropagation to minimize the total error between predicted outputs and target values.
 ## How it Works
 ### Forward Pass:
-#### Hidden Layer Inputs: h=Wx
-#### Hidden Layer Outputs(using Sigmoid activation funcction): Oh=σ(h)= 1/1+e^-h
-#### Output layer inputs:𝑜=Θ⋅𝑂ℎ
-#### Final outputs: 𝑂𝑗=𝜎(𝑜)
-#### Loss Function: Mean Squared Error (MSE): 𝐿=1/2∑(𝑡−𝑂𝑗)2 where t=target values and Oj=predicted outputs.
+1. Hidden Layer Inputs: h=Wx
+2. Hidden Layer Outputs(using Sigmoid activation funcction): Oh=σ(h)= 1/1+e^-h
+3. Output layer inputs:𝑜=Θ⋅𝑂ℎ
+4. Final outputs: 𝑂𝑗=𝜎(𝑜)
+5. Loss Function: Mean Squared Error (MSE): 𝐿=1/2∑(𝑡−𝑂𝑗)2 where t=target values and Oj=predicted outputs.
 ### Backpropagation:
