@@ -38,5 +38,6 @@ Then , it prints the total number of iterations and the final loss.
 1. Install dependencies: pip install numpy
 2. Save the script as backpropagation.py
 3. Run it: python3 backpropagation.py
+### Under Guidance of: Ritambhra Korpal Ma'am
 ### Author
 Harshita Kalani (https://github.com/HarshitaKalani3)
